@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="title">
+            <img src="title.png">
+        </div>
+        <div class="scorecard">
+            <p>Score</p>
+            <h1 id="scorecard">0</h1>
+        </div>
+        </div>
+        <div class="hands">
+            <div class="rock">
+                <img src="Rock.png"onclick="pickhand('rock')">
+
+            </div>
+            <div class="paper">
+                <img src="Paper.png" onclick="pickhand('paper')">
+            </div>
+            <div class="scissors">
+                <img src="scissors.png" onclick="pickhand('scissors')">
+            </div>
+        </div>
+        <div class="contest">
+            <div class="userhand">
+                <h1>YOU PICKED</h1>
+                <div class="userhandimage">
+                    <img src="Rock.png"class="userimage">
+                </div>
+            </div>
+        <div class="referee">
+            <div class="decision"><h1 id="decision">YOU WIN</h1></div>
+            <div class="newgame"onclick="newgame()"><p >PLAY AGAIN</p></div>
+        </div>
+        <div class="computerhand">
+                <h1>COMPUTER PICKED</h1>
+                <div class="computerhandimage">
+                    <img src="Scissors.png"id="computerhand">
+                </div>
+        </div>
+       </div>
+        <script src="index.js"></script>
+
+</body>
+
+</html>

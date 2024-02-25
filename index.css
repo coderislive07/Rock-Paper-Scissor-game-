@@ -1,0 +1,135 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body
+{
+    background-image:url("RPS.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.header
+{
+    display:flex;
+    width:1200px;
+    justify-content:space-around;
+    border:2px solid white;
+    border-radius:15px;
+    padding :19px;
+    margin-left:150px;
+    margin-top:10px;
+
+}
+.title h1
+{
+    font-size:3rem;
+    padding-top: 20px;
+    text-align: center;
+}
+.scorecard 
+{
+   font-size:30px;
+   border:2px solid white;
+   padding:10px;
+   border-radius:15px;
+   background-color: white;
+   width:150px;
+
+}
+.scorecard p 
+{
+   font-size:30px;
+   text-align: center;
+
+}
+.scorecard h1
+{
+   font-size:45px;
+   margin-left:55px;
+   color:#565468;
+
+}
+.hands
+{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:150px;
+    
+}
+.rock:hover
+{
+    transform:scale(1.1);
+    cursor:pointer;
+}
+.paper:hover
+{
+    transform:scale(1.1);
+    cursor:pointer;
+
+}
+.scissors:hover
+{
+    transform:scale(1.1);
+    cursor:pointer;
+}
+.contest
+{
+    display:flex;
+    width:900px;
+    margin-left:300px;
+    display:none;
+}
+.contest img
+{
+    width:275px;
+    height:275px;
+}
+.contest>div
+{
+    flex:1;
+}
+.contest h1
+{
+    color:white;
+    font-size:20px;
+    margin-top:20px;
+    margin-bottom:50px;
+}
+.userhandimage
+{
+    margin-left:-80px;
+}
+.computerhandimage
+{
+    margin-left:-40px;
+}
+.decision h1 
+{
+    font-size:40px;
+    margin-top:150px;
+
+}
+.newgame 
+{
+    cursor:pointer;
+    color:hsl(229,25%,31%);
+    background-color:white;
+    padding:10px;
+    border-radius:6px;
+    width:200px;
+    transition: all 0.15s;
+}
+.newgame p
+{
+    font-size:20px;
+    margin-left:34px;
+}
+.newgame:hover
+{
+    background-color:bisque;
+    transform:translate3d(0px , -2px, 0px);
+}
+
